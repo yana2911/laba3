@@ -1,0 +1,104 @@
+body {
+    font-family: Arial, sans-serif;
+  
+}
+
+header {
+    background: #222158;
+    color: #fff;
+    width: auto;
+    height: 60px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.header-{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+   
+}
+
+h1, h2, h3 {
+    color: #4a4a4a;
+    
+}
+.info{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.text1{
+display: flex;
+font-size: 25px;
+}
+.info2{
+    display: flex;
+    justify-content: center;
+}
+.text2{
+    display: flex;
+    font-size: 25px;
+}
+
+.float-img {
+    float: right;
+    margin-left: 20px;
+    width: 500px; /* Установите ширину изображения */
+}
+
+
+
+
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+table, th, td {
+    border: 1px solid #ccc;
+    padding: 8px;
+}
+
+th {
+    background-color: #f4f4f4;
+}
+
+footer {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.gallery {
+    display: flex;
+    justify-content: space-around; 
+    flex-wrap: wrap; 
+}
+
+.item {
+    text-align: center;
+    margin: 10px; 
+}
+
+.item img {
+    width: 200px;
+    height: 250px; 
+    border: 1px solid #ccc; 
+    border-radius: 5px;
+}
